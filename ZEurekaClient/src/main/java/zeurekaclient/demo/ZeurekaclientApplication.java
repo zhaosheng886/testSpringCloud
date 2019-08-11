@@ -28,6 +28,9 @@ public class ZeurekaclientApplication {
 
     @RequestMapping("/hello")
     public String hello( String name, @RequestBody  User user) {
+
+        System.out.println("dddddddddddddddddddddddddddddd333333333333333333");
+
         return "hello world ," +name+"port："+port+ "user:"+user.getUsername();
     }
 
