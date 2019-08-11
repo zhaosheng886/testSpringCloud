@@ -10,7 +10,6 @@ public interface HelloApi {
     @RequestMapping(method = RequestMethod.GET, value = "/hello")
     public String sayHello(@RequestParam("name")String name,User user);
 
-
 }
 
 
